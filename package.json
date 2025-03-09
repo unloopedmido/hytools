@@ -1,0 +1,19 @@
+{
+	"name": "hytools",
+	"private": true,
+	"workspaces": [
+		"client",
+		"server"
+	],
+	"scripts": {
+		"start": "concurrently \"npm run server\" \"npm run client\"",
+		"dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+		"client": "cd client && npm run dev",
+		"server": "cd server && npm run dev",
+		"client:dev": "cd client && npm run dev",
+		"server:dev": "cd server && npm run watch"
+	},
+	"dependencies": {
+		"concurrently": "^9.1.2"
+	}
+}

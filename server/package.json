@@ -1,0 +1,22 @@
+{
+	"name": "hytools-server",
+	"module": "./src/index.ts",
+	"type": "module",
+	"scripts": {
+		"watch": "nodemon --exec bun run src/index.ts",
+		"dev": "bun run src/index.ts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/express": "^5.0.0",
+		"ts-node": "^10.9.2"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"chalk": "^5.4.1",
+		"express": "^4.21.2",
+		"prismarine-nbt": "^2.7.0"
+	}
+}
