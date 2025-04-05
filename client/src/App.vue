@@ -10,3 +10,14 @@ import NavigationBar from "./components/NavigationBar.vue"
 		</div>
 	</div>
 </template>
+
+<style>
+* {
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+	display: none;
+}
+</style>
