@@ -2,6 +2,12 @@
 
 HyTools is a lightweight full-stack utility for Hypixel Skyblock, built with Express and Vue. It allows users to search for auctions with advanced filters like dungeon stars, rarity, and BIN/AUCTION type, as well as check a player's active auctions.
 
+## Preview
+
+![Main](github/main.png)
+![Auctioneer](github/auctioneer.png)
+![Preview](github/preview.png)
+
 ## Features
 
 - Search for auctions with advanced filters (stars, rarity, BIN/AH, etc.)
@@ -18,16 +24,21 @@ HyTools is a lightweight full-stack utility for Hypixel Skyblock, built with Exp
 ## Installation
 
 1. Clone the repo:
+
    ```sh
    git clone https://github.com/unloopedmido/hytools.git
    cd hytools
    ```
+
 2. Install dependencies:
+
    ```sh
    cd client && npm install
    cd ../server && npm install
    ```
+
 3. Run the development servers:
+
    ```sh
    npm run dev
    ```
