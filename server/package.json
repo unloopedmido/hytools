@@ -8,6 +8,7 @@
 	},
 	"devDependencies": {
 		"@types/bun": "latest",
+		"@types/cors": "^2.8.17",
 		"@types/express": "^5.0.0",
 		"ts-node": "^10.9.2"
 	},
@@ -16,6 +17,7 @@
 	},
 	"dependencies": {
 		"chalk": "^5.4.1",
+		"cors": "^2.8.5",
 		"express": "^4.21.2",
 		"prismarine-nbt": "^2.7.0"
 	}
